@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\PostController;
+use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,22 +18,27 @@ Route::get('/', function () {
     return view('client/index');
 });
 
-Route::get('/client/post-details', function () {
+Route::get('/post-details', function () {
     return view('client/post-details');
 });
 
-Route::get('/client/search-result', function () {
+Route::get('/search-result', function () {
     return view('client/search-result');
 });
 
-Route::get('/client/search-not-found', function () {
+Route::get('/search-not-found', function () {
     return view('client/search-not-found');
 });
 
-// Route::get('/',                     PostController::class . '@index')   ->name('posts.index');
-// Route::get('/posts/create',         PostController::class . '@create')  ->name('posts.create');
-// Route::post('/posts',               PostController::class . '@store')   ->name('posts.store');
-// Route::get('/posts/{post}',         PostController::class . '@show')    ->name('posts.show');
-// Route::get('/posts/{post}/edit',    PostController::class . '@edit')    ->name('posts.edit');
-// Route::put('/posts/{post}',         PostController::class . '@update')  ->name('posts.update');
-// Route::delete('/posts/{post}',      PostController::class . '@destroy') ->name('posts.destroy');
+Route::get('/tags', function () {
+    return view('client/tags');
+});
+
+
+
+// // Auth routes
+// Route::post('/register', [AuthController::class, 'register'])->name('register');
+// Route::post('/login', [AuthController::class, 'login'])->name('login');
+// Route::post('/forgot-password', [AuthController::class, 'forgotPassword'])->name('forgot.password');
+// Route::post('/reset-password', [AuthController::class, 'resetPassword'])->name('reset.password');
+

@@ -14,9 +14,9 @@
                         <div class="row card-body">
                             <div class="col-md-4 mb-4 mb-md-0">
                                 <div class="post-slider slider-sm">
-                                    <img src="images/post/post-10.jpg" class="card-img" alt="post-thumb"
+                                    <img src="/client/images/post/post-10.jpg" class="card-img" alt="post-thumb"
                                         style="height:200px; object-fit: cover;">
-                                    <img src="images/post/post-1.jpg" class="card-img" alt="post-thumb"
+                                    <img src="/client/images/post/post-1.jpg" class="card-img" alt="post-thumb"
                                         style="height:200px; object-fit: cover;">
                                 </div>
                             </div>
@@ -26,7 +26,7 @@
                                 <ul class="card-meta list-inline">
                                     <li class="list-inline-item">
                                         <a href="author-single.html" class="card-meta-author">
-                                            <img src="images/john-doe.jpg" alt="John Doe">
+                                            <img src="/client/images/john-doe.jpg" alt="John Doe">
                                             <span>John Doe</span>
                                         </a>
                                     </li>
@@ -54,7 +54,7 @@
                         <div class="row card-body">
                             <div class="col-md-4 mb-4 mb-md-0">
                                 <div class="post-slider slider-sm">
-                                    <img src="images/post/post-3.jpg" class="card-img" alt="post-thumb"
+                                    <img src="/client/images/post/post-3.jpg" class="card-img" alt="post-thumb"
                                         style="height:200px; object-fit: cover;">
                                 </div>
                             </div>
@@ -64,7 +64,7 @@
                                 <ul class="card-meta list-inline">
                                     <li class="list-inline-item">
                                         <a href="author-single.html" class="card-meta-author">
-                                            <img src="images/john-doe.jpg">
+                                            <img src="/client/images/john-doe.jpg">
                                             <span>Mark Dinn</span>
                                         </a>
                                     </li>
@@ -92,7 +92,7 @@
                         <div class="row card-body">
                             <div class="col-md-4 mb-4 mb-md-0">
                                 <div class="post-slider slider-sm">
-                                    <img src="images/post/post-7.jpg" class="card-img" alt="post-thumb"
+                                    <img src="/client/images/post/post-7.jpg" class="card-img" alt="post-thumb"
                                         style="height:200px; object-fit: cover;">
                                 </div>
                             </div>
@@ -102,7 +102,7 @@
                                 <ul class="card-meta list-inline">
                                     <li class="list-inline-item">
                                         <a href="author-single.html" class="card-meta-author">
-                                            <img src="images/john-doe.jpg">
+                                            <img src="/client/images/john-doe.jpg">
                                             <span>Charls Xaviar</span>
                                         </a>
                                     </li>
@@ -135,7 +135,7 @@
                                 <ul class="card-meta list-inline">
                                     <li class="list-inline-item">
                                         <a href="author-single.html" class="card-meta-author">
-                                            <img src="images/kate-stone.jpg" alt="Kate Stone">
+                                            <img src="/client/images/kate-stone.jpg" alt="Kate Stone">
                                             <span>Kate Stone</span>
                                         </a>
                                     </li>

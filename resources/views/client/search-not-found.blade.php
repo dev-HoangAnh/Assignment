@@ -12,7 +12,7 @@
                     </h1>
                 </div>
                 <div class="col-lg-10 text-center">
-                    <img class="mb-5" src="images/no-search-found.svg" alt="">
+                    <img class="mb-5" src="/client/images/no-search-found.svg" alt="">
                     <h3>No Search Found</h3>
                 </div>
             </div>
